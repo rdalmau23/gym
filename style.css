@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #0a0; /* Verde oscuro */
-    padding: 20px;
+    padding: 7px;
     position: fixed;
     text-align: center;
     width: 100%;
@@ -22,6 +22,8 @@ header {
 header h1 {
     color: #ff0; /* Amarillo */
     margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
 }
 
 nav a {
@@ -93,3 +95,4 @@ display: block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
     margin: 10px;
 }
+
