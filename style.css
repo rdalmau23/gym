@@ -2,14 +2,21 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000; /* Fondo negro */
     color: #fff; /* Texto blanco */
-    margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #0a0; /* Verde oscuro */
     padding: 20px;
+    position: fixed;
     text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
 }
 
 header h1 {
@@ -29,6 +36,7 @@ nav a:hover {
 
 main {
     padding: 20px;
+    margin-top: 130px;
 }
 
 article {
@@ -44,8 +52,20 @@ article h2 {
     margin-top: 0;
 }
 
+article h3 {
+    color: #0a0; /* Verde */
+    margin-top: 0;
+}
+
 article p {
     line-height: 1.6;
+}
+
+footer{
+    text-align: center;
+    background-color: #0a0; /* Verde oscuro */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 @media (max-width: 600px) {
