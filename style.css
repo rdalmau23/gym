@@ -60,6 +60,7 @@ article h3 {
 
 article p {
     line-height: 1.6;
+
 }
 
 footer{
@@ -82,6 +83,13 @@ display: block;
     article {
     padding: 15px;
     }
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
 .foto1{
