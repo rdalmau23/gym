@@ -15,7 +15,6 @@ header {
     left: 0;
     z-index: 1000;
     box-sizing: border-box;
-    border-radius: 10px;
     
 }
 
@@ -60,13 +59,14 @@ article h3 {
 
 article p {
     line-height: 1.6;
+
 }
 
 footer{
     text-align: center;
     background-color: #0a0; /* Verde oscuro */
     padding: 20px;
-    border-radius: 10px;
+
 }
 
 @media (max-width: 600px) {
@@ -84,14 +84,21 @@ display: block;
     }
 }
 
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
 .foto1{
-    width: 700pxpx;
+    width: 500px;
     max-width: 100%;
-    height: auto;
+    height: 370px;
     border-radius: 10px; /* Bordes redondeados */
     border: 2px solid #0a0; /* Borde verde */
-    display: block;
+    display: inline-block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
-    margin: 10px;
+    margin: 30px;
 }
 
